@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="47.536" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="amazon project feature file" name="Amazon Uid test" time="24.397">
+<system-out><![CDATA[
+Given I open browser "chrome" and enter url "https://www.amazon.in/"........passed
+And i click on sign in......................................................passed
+When I enter userid "paragguide@yahoo.co.in"................................passed
+And click continue button...................................................passed
+Then I validate userid......................................................passed
+And check password textbox comes............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="amazon project feature file" name="Amazon Pwd test" time="22.942">
+<system-out><![CDATA[
+Given uid is valid and pwd displayed........................................passed
+When i enter password "RMinfotech"..........................................passed
+And click submit button.....................................................passed
+Then i should login.........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
